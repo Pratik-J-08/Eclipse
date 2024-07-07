@@ -2,9 +2,97 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body{
     overflow-x: hidden;
     overflow-y: auto;
+    background-color: #111827;
+}
+
+
+.header_container{
+    height: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: -webkit-fill-available;
+}
+
+.logoleft{
+    font-size: 22.56px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.centerlinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.linkitem{
+    font-size: 14px;
+    font-weight: 400;
+    color: #D1D5DB;
+}
+
+.header_cta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:4px;
+    border: 1px solid #6B7280;
+    border-radius: 100px;
+    background: radial-gradient(#4B5563,#111827);
+    padding: 12px 16px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.hamburgermenu{
+    display: none;
+}
+
+
+
+/* RESPONSIVE PART STARTS FROM HERE  */
+
+
+@media only screen and (max-width:768px){
+
+    .header_container{
+        /* height: 80px; */
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+}
+
+@media only screen and (max-width:480px){
+
+    .header_container{
+        /* height: 80px; */
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .centerlinks{
+      display: none;
+    }
+    .header_cta{
+        display: none;
+    }
+    .hamburgermenu{
+        display: block;
+    }
+    
 }

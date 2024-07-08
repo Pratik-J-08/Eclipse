@@ -62,6 +62,62 @@ body{
     display: none;
 }
 
+.hero_container{
+    padding:80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 24px;
+}
+
+.heroheader{
+    font-size: 58px;
+    font-weight: 900;
+    text-align: center;
+    /* line-height: 60; */
+    background: linear-gradient(to bottom, #FFFFFF, #DFA6FF);
+    background-clip: text;
+    color: transparent;
+    padding: 0px 80px;
+    
+}
+
+.herosupport{
+    font-size: 16px;
+    font-weight: 400;
+    color: #D1D5DB;
+    text-align: center;
+    padding: 0px 80px;
+}
+
+.herocta{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9333EA;
+    padding: 10px 16px;
+    border-radius: 100px;
+}
+
+.headerimg{
+    padding-top: 60px;
+    height: 100%;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+}
 
 
 /* RESPONSIVE PART STARTS FROM HERE  */
@@ -74,7 +130,20 @@ body{
         padding-left: 32px;
         padding-right: 32px;
     }
-
+    .headerimg{
+        padding-top: 60px;
+        height: 100%;
+        width: 100%;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .heroheader{
+        font-size: 48px;
+        padding: 0px 32px;
+    }
+    .herosupport{
+        padding: 0px 32px;
+    }
 }
 
 @media only screen and (max-width:480px){
@@ -94,5 +163,23 @@ body{
     .hamburgermenu{
         display: block;
     }
-    
+
+    .heroheader{
+        font-size: 34px;
+        padding: 0px 16px;
+    }
+
+    .herosupport{
+        font-size:16px;
+    }
+    .headerimg{
+        padding-top: 60px;
+        height: 100%;
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .herosupport{
+        padding: 0px 16px;
+    }
 }

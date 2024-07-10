@@ -180,6 +180,10 @@ border-radius:12px;
 /* flex-wrap: wrap; */
 width: 100%;
 height: 100%;
+/* max-width: max-content; */
+min-width: 278px;
+/* flex-direction: column; */
+/* min-height: max-content; */
 }
 
 .typeimage{
@@ -199,6 +203,25 @@ height: 100%;
     font-weight: 400;
     color: #D1D5DB;
     max-width: 350px;
+}
+
+
+
+@media only screen and (max-width:1120px){
+    .growthtypes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .type{
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        width: 100%;
+        }
+        
+      
 }
 
 
@@ -231,6 +254,31 @@ height: 100%;
         width: 100%;
         height: 100%;
     } */
+     .wealthgrowthcontainer{
+        /* padding: 0px 32px; */
+        margin-left: 0px;
+        margin-right: 0px;
+     }
+    .growthtypes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0px 32px;
+    }
+    .type{
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        width: 100%;
+        }
+    .sectionheader{
+        padding: 0px 32px;
+    }
+  .sectionsupport{
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
 
 @media only screen and (max-width:480px){
@@ -269,4 +317,24 @@ height: 100%;
     .herosupport{
         padding: 0px 16px;
     }
+    .growthtypes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .type{
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        width: 100%;
+        }
+        .sectionheader{
+            padding: 0px 16px;
+        }
+      .sectionsupport{
+        padding-left: 16px;
+        padding-right: 16px;
+      }
 }

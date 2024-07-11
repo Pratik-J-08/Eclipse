@@ -206,6 +206,66 @@ min-width: 278px;
 }
 
 
+.journeystartcontainer{
+    width: 100%;
+    background: url(assets/all/journeycontainer/Background\ \(3\).png);
+    background-position: center;
+    background-repeat: none;
+    padding: 0px 80px 0px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.journeystart{
+    padding: 112px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.journeybox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.journeyheader{
+    max-width: 576px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+}
+
+.journeysupport{
+    font-size: 16px;
+    font-weight: 400;
+    color:#D1D5DB;
+    max-width: 576px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.journeyCTA{
+    background-color: #9333EA;
+    font-size: 14px;
+    font-weight:400;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:0px;
+    padding: 10px 16px;
+    border-radius: 24px;
+}
+
+
+
+
+
 
 @media only screen and (max-width:1120px){
     .growthtypes{
@@ -221,7 +281,6 @@ min-width: 278px;
         width: 100%;
         }
         
-      
 }
 
 

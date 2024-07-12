@@ -338,6 +338,13 @@ min-width: 278px;
     padding-left: 32px;
     padding-right: 32px;
   }
+  .journeystartcontainer{
+    padding: 0px 32px 0px 32px;
+}
+
+.journeystart{
+    padding: 112px 0px;
+}
 }
 
 @media only screen and (max-width:480px){
@@ -396,4 +403,14 @@ min-width: 278px;
         padding-left: 16px;
         padding-right: 16px;
       }
+      .journeystartcontainer{
+        padding: 0px 16px 0px 16px;
+    }
+    
+    .journeystart{
+        padding: 112px 0px;
+    }
+    .journeyheader{
+        font-size: 30px;
+    }
 }

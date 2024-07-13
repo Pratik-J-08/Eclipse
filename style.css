@@ -263,8 +263,105 @@ min-width: 278px;
 }
 
 
+.pricingcontainermain{
+    padding: 0px 80px;
+}
+
+.pricingcontainer{
+    padding: 96px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+
+.pricingheader{
+    color: #F9FAFB;
+    font-size: 36px;
+    font-weight: 600;
+    max-width:fit-content;
+    text-align: center;
+}
+
+.pricingblocks{
+
+}
+
+.secondaryblock{
+    border: 1px solid #1F2937;
+    border-radius: 12px;
+}
+
+.blocktop{
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.packname{
+    color: #9333EA;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.packprice{
+    color: #F9FAFB;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.month{
+    color: #9CA3AF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.packtagline{
+    color: #9CA3AF;
+    font-size: 16px;
+    font-weight: 400;
+}
 
 
+.dividerline{
+    width: auto;
+    height: 1px;
+    background-color: #1F2937;
+}
+
+.blockbottom{
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.packbenefit{
+    color: #D1D5DB;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.secondarypricingcta{
+    background: #1F2937;
+    color: #ffffff;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 180px;
+    margin-top: 32px;
+}
 
 
 @media only screen and (max-width:1120px){
